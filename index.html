@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive comments section</title>
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+    <main class="container">
+
+    <div class="comment_card cont-box">
+          <div class="comment-box">
+            <div class="comment-count">
+              <div class="up-vote"><img src="./images/icon-plus.svg" alt="plus"/></div>
+              <div class="vote-count">10</div>
+              <div class="down-vote"><img src="./images/icon-minus.svg" alt="plus"/></div>
+               <!-- this section will only be displayed in mobile    -->
+              <p class="reply-btn-mb"><img src="./images/icon-reply.svg"/> Reply</p>
+
+            </div>
+
+            <div class="comment-display-box">
+                <div class="user-profile-div">
+                <p class="ag-left"><img class="user-img" src="./images/avatars/image-amyrobson.png" alt=""/> <span class="user-name">amyrobson</span>  <span class="post-time">1 month ago</span></p>
+                <p class="reply-btn reply-text"><img src="./images/icon-reply.svg"/> Reply</p>    
+                
+                  
+                
+                </div>
+                <div class="comment-text">
+                  <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit itaque doloremque dolorem at perspiciatis, ex odit officia tempora, asperiores sapiente cupiditate sint excepturi quidem magni adipisci alias officiis dolor et.
+                  Quis expedita labore facere ducimus nesciunt dicta quos hic molestiae ad, suscipit quo modi necessitatibus aliquam reiciendis tempore voluptate ullam maiores, natus eos est cupiditate ex ea. Quia, cupiditate quidem!
+                  Modi, blanditiis. Modi in aliquid quas minima reprehenderit nesciunt fugiat vero facere rem enim! Soluta adipisci magnam esse quis, ipsum obcaecati necessitatibus voluptate nihil illo alias amet quo nisi! Odio.
+                  Laborum excepturi velit reiciendis repellendus dolore optio iste saepe harum beatae blanditiis? Adipisci illum culpa nobis aliquid ad officiis pariatur consequuntur iusto voluptatibus? Earum beatae voluptatum dolorum, tempore quasi delectus!
+                  </p>  
+                </div>
+            </div>
+
+          </div>
+    </div>
+
+      <div class="comment_card cont-box">
+        <div class="comment-box">
+          <div class="comment-count">
+            <div class="up-vote"><img src="./images/icon-plus.svg" alt="plus"/></div>
+            <div class="vote-count">10</div>
+            <div class="down-vote"><img src="./images/icon-minus.svg" alt="plus"/></div>
+             <!-- this section will only be displayed in mobile    -->
+             <p class="reply-btn-mb"><img src="./images/icon-reply.svg"/> Reply</p>
+
+          </div>
+
+          <div class="comment-display-box">
+              <div class="user-profile-div">
+              <p class="ag-left"><img class="user-img" src="./images/avatars/image-maxblagun.png" alt=""/> <span class="user-name">maxblagun</span>  <span class="post-time">2 weeks ago</span></p>
+              <p class="reply-btn"><img src="./images/icon-reply.svg"/> Reply</p>    
+              
+                
+              
+              </div>
+              <div class="comment-text">
+                <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit itaque doloremque dolorem at perspiciatis, ex odit officia tempora, asperiores sapiente cupiditate sint excepturi quidem magni adipisci alias officiis dolor et.
+                Quis expedita labore facere ducimus nesciunt dicta quos hic molestiae ad, suscipit quo modi necessitatibus aliquam reiciendis tempore voluptate ullam maiores, natus eos est cupiditate ex ea. Quia, cupiditate quidem!
+                Modi, blanditiis. Modi in aliquid quas minima reprehenderit nesciunt fugiat vero facere rem enim! Soluta adipisci magnam esse quis, ipsum obcaecati necessitatibus voluptate nihil illo alias amet quo nisi! Odio.
+                Laborum excepturi velit reiciendis repellendus dolore optio iste saepe harum beatae blanditiis? Adipisci illum culpa nobis aliquid ad officiis pariatur consequuntur iusto voluptatibus? Earum beatae voluptatum dolorum, tempore quasi delectus!
+                </p>  
+              </div>
+          </div>
+
+        </div>
+
+        <div class="children-comment" id="all_replies">
+
+          <div class="comment-box">
+            <div class="comment-count">
+              <div class="up-vote"><img src="./images/icon-plus.svg" alt="plus"/></div>
+              <div class="vote-count">10</div>
+              <div class="down-vote"><img src="./images/icon-minus.svg" alt="plus"/></div>
+               <!-- this section will only be displayed in mobile    -->
+               <p class="reply-btn-mb"><img src="./images/icon-reply.svg"/> Reply</p>
+
+            </div>
+  
+            <div class="comment-display-box">
+                <div class="user-profile-div">
+                <p class="ag-left"><img class="user-img" src="./images/avatars/image-ramsesmiron.png" alt=""/> <span class="user-name">ramsesmiron</span>  <span class="post-time">1 week ago</span></p>
+                <p class="reply-btn"><img src="./images/icon-reply.svg"/> Reply</p>    
+                
+                  
+                
+                </div>
+                <div class="comment-text">
+                  <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit itaque doloremque dolorem at perspiciatis, ex odit officia tempora, asperiores sapiente cupiditate sint excepturi quidem magni adipisci alias officiis dolor et.
+                  Quis expedita labore facere ducimus nesciunt dicta quos hic molestiae ad, suscipit quo modi necessitatibus aliquam reiciendis tempore voluptate ullam maiores, natus eos est cupiditate ex ea. Quia, cupiditate quidem!
+                  Modi, blanditiis. Modi in aliquid quas minima reprehenderit nesciunt fugiat vero facere rem enim! Soluta adipisci magnam esse quis, ipsum obcaecati necessitatibus voluptate nihil illo alias amet quo nisi! Odio.
+                  Laborum excepturi velit reiciendis repellendus dolore optio iste saepe harum beatae blanditiis? Adipisci illum culpa nobis aliquid ad officiis pariatur consequuntur iusto voluptatibus? Earum beatae voluptatum dolorum, tempore quasi delectus!
+                  </p>  
+                </div>
+            </div>
+  
+          </div>
+          <div class="comment-box">
+            <div class="comment-count">
+              <div class="up-vote"><img src="./images/icon-plus.svg" alt="plus"/></div>
+              <div class="vote-count">10</div>
+              <div class="down-vote"><img src="./images/icon-minus.svg" alt="plus"/></div>
+               <!-- this section will only be displayed in mobile    -->
+               <p class="reply-btn-mb"><img src="./images/icon-reply.svg"/> Reply</p>
+
+            </div>
+  
+            <div class="comment-display-box">
+                <div class="user-profile-div">
+                <p class="ag-left"><img class="user-img" src="./images/avatars/image-amyrobson.png" alt=""/> <span class="user-name">amyrobson</span>  <span class="post-time">1 week ago</span></p>
+                <p class="reply-btn"><img src="./images/icon-reply.svg"/> Reply</p>    
+                
+                  
+                
+                </div>
+                <div class="comment-text">
+                  <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit itaque doloremque dolorem at perspiciatis, ex odit officia tempora, asperiores sapiente cupiditate sint excepturi quidem magni adipisci alias officiis dolor et.
+                  Quis expedita labore facere ducimus nesciunt dicta quos hic molestiae ad, suscipit quo modi necessitatibus aliquam reiciendis tempore voluptate ullam maiores, natus eos est cupiditate ex ea. Quia, cupiditate quidem!
+                  Modi, blanditiis. Modi in aliquid quas minima reprehenderit nesciunt fugiat vero facere rem enim! Soluta adipisci magnam esse quis, ipsum obcaecati necessitatibus voluptate nihil illo alias amet quo nisi! Odio.
+                  Laborum excepturi velit reiciendis repellendus dolore optio iste saepe harum beatae blanditiis? Adipisci illum culpa nobis aliquid ad officiis pariatur consequuntur iusto voluptatibus? Earum beatae voluptatum dolorum, tempore quasi delectus!
+                  </p>  
+                </div>
+            </div>
+  
+          </div>
+  
+  
+
+        </div>
+
+      </div>
+
+
+      <div class="comment_card cont-box">
+        <div class="comment-box">
+          <div class="comment-count">
+            <div class="up-vote"><img src="./images/icon-plus.svg" alt="plus"/></div>
+            <div class="vote-count">6</div>
+            <div class="down-vote"><img src="./images/icon-minus.svg" alt="plus"/></div>
+             <!-- this section will only be displayed in mobile    -->
+             <p class="btn-delete-mb delete"><img src="./images/icon-delete.svg"/> Delete</p>
+             <p class="btn-edit-mb edit"><img src="./images/icon-edit.svg"/> Edit</p> 
+
+          </div>
+
+          <div class="comment-display-box">
+              <div class="user-profile-div">
+              <p class="ag-left"><img class="user-img" src="./images/avatars/image-juliusomo.png" alt=""/> <span class="user-name">juliusomo <button class="btn-you">You</button></span>  <span class="post-time">1 month ago</span></p>
+              <p class="btn-delete delete"><img src="./images/icon-delete.svg"/> Delete</p>
+              <p class="btn-edit edit"><img src="./images/icon-edit.svg"/> Edit</p>    
+          </div>
+              <div class="comment-text">
+                <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit itaque doloremque dolorem at perspiciatis, ex odit officia tempora, asperiores sapiente cupiditate sint excepturi quidem magni adipisci alias officiis dolor et.
+                Quis expedita labore facere ducimus nesciunt dicta quos hic molestiae ad, suscipit quo modi necessitatibus aliquam reiciendis tempore voluptate ullam maiores, natus eos est cupiditate ex ea. Quia, cupiditate quidem!
+                Modi, blanditiis. Modi in aliquid quas minima reprehenderit nesciunt fugiat vero facere rem enim! Soluta adipisci magnam esse quis, ipsum obcaecati necessitatibus voluptate nihil illo alias amet quo nisi! Odio.
+                Laborum excepturi velit reiciendis repellendus dolore optio iste saepe harum beatae blanditiis? Adipisci illum culpa nobis aliquid ad officiis pariatur consequuntur iusto voluptatibus? Earum beatae voluptatum dolorum, tempore quasi delectus!
+                </p>  
+              </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="comment_card">
+        <div class="comment-box cp-box">
+         <img class="user-img user-img-mb" src="./images/avatars/image-juliusomo.png"/>
+         <textarea class="textarea-mb post-textarea" id="post-data"placeholder="Add a comment..."></textarea>
+         <button class="btn btn-mb" id="btn-post">Send</button>
+        </div>
+      </div>
+          
+    
+
+    </main>
+
+
+  <!-- Pull dynamic content from the data.json file -->
+  <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+  <script src="./comment.js"></script>
+  <script>
+
+
+
+
+  </script>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Kripa Shankar Prasad</a>.
+
+</body>
+</html>
